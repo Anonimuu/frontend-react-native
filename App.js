@@ -3,19 +3,22 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import Footer from './components/Footer';
 import Main from './components/Main';
 import  Header  from './components/Header';
+import { ScrollView } from 'react-native-web';
+import CardAccout from './components/CardAccout';
 
 
 
 export default function App() {
   return (
 
-    <View style={styles.container}>
+    <ScrollView style={styles.container}>
 
       <Header />
+      <CardAccout/>
       <Main />
       <Footer />
 
-    </View>
+    </ScrollView>
   );
 }
 

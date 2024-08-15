@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <View style={styles.footer}>
 
-            <Text style={styles.tituloH}>footer</Text>
+            <Text style={styles.tituloH}>© Copyright2024 Sr-Ki55 </Text>
 
         </View>
     )
@@ -12,8 +12,8 @@ export default function Footer() {
 
 const styles = StyleSheet.create({
     footer: {
-        flex: 1,
-        backgroundColor: '#3C6464',
+        padding:15,
+        backgroundColor: '#150D15',
         alignItems: 'center',
         justifyContent: 'center'
 
@@ -21,7 +21,9 @@ const styles = StyleSheet.create({
     },
 
     tituloH: {
-        color: '#D5F0FF',
+      
+        opacity: 0.5,
+        color: '#FFFFFF'
 
 
     }
